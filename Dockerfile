@@ -1,4 +1,4 @@
-FROM homeassistant/home-assistant:0.58.1
+FROM homeassistant/home-assistant:0.60.1
 
 RUN set -e && \
     pip uninstall -y python_openzwave && \
